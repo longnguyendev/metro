@@ -13,6 +13,11 @@ class RouteController extends Controller
     {
         return RouteResource::collection(RouteModel::all());
     }
+    public function getABC()
+    {
+        return RouteResource::collection(RouteModel::all());
+    }
+
 
     public function getStationByRouteID($id)
     {
